@@ -12,6 +12,7 @@ for idx in 1 .. 10:
 
   if idx mod 2 != 0:
     echo "odd idx:", idx
+    
   else:
     a[idx - 1] = v * 5
 
