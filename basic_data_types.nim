@@ -2,7 +2,7 @@ let
   a: int8 = 11
   b: int8 = 4
 
-echo "a + b = ", a + b 
+echo "a + b = ", a + b
 echo "a - b = ", a - b
 echo "a * b = ", a * b
 echo "a / b = ", a / b

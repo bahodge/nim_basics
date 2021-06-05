@@ -14,7 +14,7 @@ while currentValue != 1:
     currentValue = (currentValue * 3) + 1
   else:
     currentValue = currentValue div 2
-  
+
   iteration += 1
 
 echo "Iterations: ", iteration
@@ -44,7 +44,7 @@ for i in 0 .. 16:
 
   if i mod 5 == 0:
     str.add("buzz")
-  
+
   if str.len > 0:
     echo "i: ", i, " str: ", str
 
@@ -52,20 +52,20 @@ echo "----------------"
 echo "EX 4"
 echo "In the previous exercises you have converted inches to centimeters, and vice versa. Create a conversion table with multiple values. For example, the table might look like this:"
 
-const inches = [1, 4, 7, 10, 13, 16 ,19]
+const arr: array[7, int] = [1, 4, 7, 10, 13, 16, 19]
 echo "in  | cm"
 echo "-----------"
-for i in inches:
+for i in arr:
   var row = ""
   row.add($i)
   if i < 10:
     row.add("   | ")
-  else: 
+  else:
     row.add("  | ")
 
 
   let cm = float(i) * 2.54
   row.add($cm)
-  
+
   echo row
 

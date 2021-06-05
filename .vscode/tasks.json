@@ -1,4 +1,5 @@
 {
+  "version": "2.0.0",
   "taskName": "Run module.nim",
   "command": "nim",
   "args": [
